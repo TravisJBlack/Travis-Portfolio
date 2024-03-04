@@ -12,8 +12,8 @@ N/A
 
 Access site: http://travisjblack.github.io/Travis-Portfolio
 
-![Screenshot of webpage] (/assets/images/ScreenshotTop) The nav links allows you to jump to that section of the page.
+![Screenshot of webpage](./assets/images/ScreenshotTop.png) The nav links allows you to jump to that section of the page.
 
-![Screenshot of webpage] (/assets/images/SscreenshotWork) The section shows websites that I have either helped create or created on my own. The first and second one are active links to the websites.
+![Screenshot of webpage](./assets/images/screenshotWork.png) The section shows websites that I have either helped create or created on my own. The first and second one are active links to the websites.
 
-![Screenshot of webpage] (/assets/images/screenshotContact) The contact section is ways to get ahold of me or access information about me. 
+![Screenshot of webpage](./assets/images/screenshotContact.png) The contact section is ways to get ahold of me or access information about me. 
