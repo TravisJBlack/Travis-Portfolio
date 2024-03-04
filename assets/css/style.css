@@ -44,7 +44,8 @@ section h2 {
 section ul li {
   list-style-type: none;
   display: inline-block;
-  margin: 25px;
+  margin-top: 75px;
+  margin-left: 50px;
 }
 
 .main-header {
@@ -55,6 +56,7 @@ section ul li {
 }
 p {
   margin-left: 50px;
+  margin-top: 75px;
 }
 
 .pic {
@@ -68,6 +70,10 @@ p {
   align-items: center;
 }
 
+.card p {
+  align-items: center;
+}
+
 .card img {
   margin: 20px;
   max-width: 500px;
@@ -76,22 +82,33 @@ p {
   border-color: lightgray;
 }
 
-@media screen and (max-width:1024px) {
-  main {
-    background-color: red;
-  }
+@media screen and (max-width:1475px) {
+  
   section{
+    align-items: center;
     text-align: center;
     flex-direction: column;
     flex-wrap: wrap;
   }
   section h2 {
+    padding: 0px;
+    margin: 0px;
     border-right-style: none;
     width: auto;
   }  
  p {
-  margin-left: 0px;
+  margin: 20px;
  }
+
+ section ul {
+  padding-left: 0px;
+ }
+ section ul li {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+
 
   .card img {
     margin: 0px;
@@ -100,18 +117,12 @@ p {
   }
 }
 
-@media screen and (max-width:430px) {
- 
-  main{ 
-    background-color: green;
+@media Screen and (max-width: 500px) {
+  section ul li {
+    display: block;
   }
 
+  .main-header {
+    justify-content: center;
+  }
 }
-
-
-
-
-
-
-
-
