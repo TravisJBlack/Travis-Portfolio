@@ -22,7 +22,6 @@ nav ul li {
   list-style-type: none;
   display: inline-block;
   margin-top: 20px;
-  
 }
 
 /*  creates flex box for section element */
@@ -73,7 +72,7 @@ p {
 .card{
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
 }
 
 /* sets attributes for the images in the class */
@@ -87,7 +86,7 @@ p {
 
 /* creates action item for the images in the work section */
 .action :hover{
-  border-color: red;
+  border-color: black;
   transform: scale(1.5);
 }
 
@@ -109,16 +108,16 @@ p {
   }  
 
   p {
-  margin: 20px;
+    margin: 20px;
   }
 
   section ul {
-  padding-left: 0px;
+    padding-left: 0px;
   }
 
   section ul li {
-  margin-top: 0px;
-  margin-left: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
 
   .card img {
